@@ -1,0 +1,24 @@
+{
+  "name": "whitelist-registration",
+  "version": "1.0.0",
+  "description": "Sistem Pendaftaran Whitelist dengan Node.js, SFTP, dan Email Notifikasi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "axios": "^0.27.2",
+    "mongoose": "^6.8.0",
+    "nodemailer": "^6.9.11",
+    "ssh2-sftp-client": "^9.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "author": "Fajar Zylphix",
+  "license": "MIT"
+}
