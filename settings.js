@@ -5,7 +5,7 @@ module.exports = {
     emailHost: "",
     emailPort: 465,
     emailUser: "gmail",
-    emailPass: "xold obyt kxsu whgs",
+    emailPass: "",
 
     // Konfigurasi SFTP
     host: "node.rumahh.biz.id",
